@@ -24,7 +24,7 @@ export const BookShow = ({ book, onDelete, onEdit }) => {
     <div className="book-show">
       <img 
       alt="books"
-      src="http://picsum.photos/300/200"
+      src={`http://picsum.photos/seed/${book.id}/300/200`}
       
       />
       <div>{content}</div>
